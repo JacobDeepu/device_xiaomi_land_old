@@ -63,6 +63,8 @@ void power_hint(power_hint_t hint, void *data);
 void set_interactive(int on);
 void set_feature(feature_t feature, int state);
 
+#define CHECK_HANDLE(x) ((x)>0)
+
 #ifdef __cplusplus
 }
 #endif
